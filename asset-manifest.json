@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.8905b98c.css",
+    "main.js": "/portafolio/static/js/main.8f1d1178.js",
+    "static/js/787.4df8b1b5.chunk.js": "/portafolio/static/js/787.4df8b1b5.chunk.js",
+    "static/media/radimax.png": "/portafolio/static/media/radimax.2006980296829bde241c.png",
+    "static/media/Alkatra-VariableFont_wght.ttf": "/portafolio/static/media/Alkatra-VariableFont_wght.bf8f60b0f1a7d5f397f3.ttf",
+    "static/media/Montserrat-Italic-VariableFont_wght.ttf": "/portafolio/static/media/Montserrat-Italic-VariableFont_wght.ef11b720b9a6cfb9a317.ttf",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/portafolio/static/media/Montserrat-VariableFont_wght.3faa3eef13649db02044.ttf",
+    "static/media/Rajdhani-Light.ttf": "/portafolio/static/media/Rajdhani-Light.7f948ddb3029f1193092.ttf",
+    "static/media/ecommerce.png": "/portafolio/static/media/ecommerce.bbfd4651da5d4a3aa179.png",
+    "static/media/charmanager.png": "/portafolio/static/media/charmanager.81da3623403bf24f3cf7.png",
+    "static/media/reactLogo.jpg": "/portafolio/static/media/reactLogo.1801d50cdb8c5a6d6ca7.jpg",
+    "static/media/portrait.png": "/portafolio/static/media/portrait.d4f82d090784133504cf.png",
+    "static/media/future.png": "/portafolio/static/media/future.6bc21710356af2f6b4dc.png",
+    "static/media/spain.webp": "/portafolio/static/media/spain.95578610753b08e78a94.webp",
+    "static/media/ShareTechMono-Regular.ttf": "/portafolio/static/media/ShareTechMono-Regular.d753b5dc50d171ecc94b.ttf",
+    "static/media/projects.png": "/portafolio/static/media/projects.064e841a3a62117e6d46.png",
+    "static/media/electronLogo.jpg": "/portafolio/static/media/electronLogo.8e12fff532e148e19583.jpg",
+    "static/media/animesearcher.png": "/portafolio/static/media/animesearcher.f914aed4ed1f2249a938.png",
+    "static/media/todolist.png": "/portafolio/static/media/todolist.d3da926fa4ac39b75cc5.png",
+    "static/media/artificialint.png": "/portafolio/static/media/artificialint.77c58ec0dc08d444d778.png",
+    "static/media/contact.png": "/portafolio/static/media/contact.c29635b1ae1663341623.png",
+    "static/media/djangoLogo.jpg": "/portafolio/static/media/djangoLogo.1561b91d7b75f3ca2814.jpg",
+    "static/media/encoder.png": "/portafolio/static/media/encoder.54c9af4faa1415664693.png",
+    "index.html": "/portafolio/index.html",
+    "main.8905b98c.css.map": "/portafolio/static/css/main.8905b98c.css.map",
+    "main.8f1d1178.js.map": "/portafolio/static/js/main.8f1d1178.js.map",
+    "787.4df8b1b5.chunk.js.map": "/portafolio/static/js/787.4df8b1b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8905b98c.css",
+    "static/js/main.8f1d1178.js"
+  ]
+}
