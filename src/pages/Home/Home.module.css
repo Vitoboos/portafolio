@@ -1,0 +1,143 @@
+@font-face {
+    font-family: Alkatra;
+    src: url(../../fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+.gotoEsp{
+    width: 8vw;
+    height: 10vh;
+    position: absolute;
+    top: 1vh;
+    left: 2vw;
+}
+
+
+.active{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.canvas{
+    width: 100%;
+    height: 100vh;
+    background: rgb(20,20,20);
+    background: linear-gradient(90deg, rgba(20,20,20,1) 0%, rgba(27,26,26,1) 25%, rgba(40,39,39,1) 50%, rgba(27,26,26,1) 75%, rgba(20,20,20,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.displayBtn{
+    background-color: white;
+    padding: 2vh 2vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 25px;
+    box-shadow: rgb(0, 0, 0, 0.25) 4px 4px; 
+    font-family: Alkatra;
+}
+
+.displayBtn:hover{
+    color: white;
+    background-color: #383840;
+    cursor: pointer;
+    box-shadow: rgb(0, 0, 0, 0.25) 4px 4px; 
+}
+
+.sectionWrapper{    
+    background: rgb(40,39,39);
+    background: linear-gradient(90deg, rgba(40,39,39,1) 0%, rgba(62,62,62,1) 50%, rgba(102,98,98,1) 75%, rgba(126,122,122,1) 95%);
+    margin: 5vh 25vw 10vh 25vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+    user-select: none;
+    font-family: Alkatra;
+}
+
+.sectionWrapper h1{
+    color: white;
+    margin: 0;
+    padding: 2vh;
+    text-align: center;
+}
+
+.sectionWrapper img{
+    width: 100%;
+    height: 25vh;
+}
+
+.sectionWrapper .area{
+    box-shadow: rgb(0, 0, 0, 0.25) 4px 4px;
+}
+
+.sectionWrapper .area:hover h1{
+    animation: DisplayUnderline 1s forwards;
+    border-bottom: solid white thick;
+    cursor: pointer; 
+}
+
+.sectionWrapper .area:hover h1{
+    border-bottom: solid white thick;
+    cursor: pointer;
+}
+
+.sectionWrapper .area:hover{
+    cursor: pointer;
+}
+
+.reactBox{
+    background-color: #00d8ff;
+}
+
+.reactBox h1{
+    border-bottom: solid #00d8ff thick;
+}
+
+.jsBox{
+    background-color: #f0db4f;
+}
+
+.jsBox h1{
+    border-bottom: solid #f0db4f thick;
+}
+
+.djangoBox{
+    background-color: #103e2e;
+}
+
+.djangoBox h1{
+    border-bottom: solid #103e2e thick;
+}
+
+.electronBox{
+    background-color: #2b2f3b
+}
+
+.electronBox h1{
+    border-bottom: solid #2b2f3b thick;
+}
+
+.frameworkTitle{
+    padding: 1vh 0px;
+    background: rgb(40,39,39);
+    background: linear-gradient(90deg, rgb(53, 52, 52) 0%, rgba(62,62,62,1) 50%, rgb(89, 87, 87) 75%, rgb(62, 62, 62) 95%);
+    width: 100%;
+    color: whitesmoke;
+    text-align: center; 
+    font-family: Montserrat;
+}

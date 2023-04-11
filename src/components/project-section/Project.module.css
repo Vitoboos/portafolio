@@ -1,0 +1,147 @@
+@font-face {
+    font-family: Alkatra;
+    src: url(../../fonts/Alkatra-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../../fonts/Montserrat-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: MontserratIta;
+    src: url(../../fonts/Montserrat-Italic-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Rajdhani;
+    src: url(../../fonts/Rajdhani-Light.ttf);
+}
+
+.wrapper{
+    margin: 3vh 5vw;
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    border-top: dashed gray thin;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px;
+}
+
+.wrapper .name{
+    width: 50%;
+    background-color: gray;
+    text-align: left;
+    color: white;
+    font-size: 24px;
+    margin: 0px 0px 0px 1.5vw;
+    padding: 1vh;
+    border-radius: 3vw 0px 5vw 2vw;
+    background: rgb(40,39,39);
+    background: linear-gradient(90deg, rgba(40,39,39,1) 0%, rgba(62,62,62,1) 50%, rgba(102,98,98,1) 75%, rgba(126,122,122,1) 95%);
+    font-family: Rajdhani;
+    font-style: italic;
+}
+
+.wrapper:hover .name{
+    animation: expandName 1s forwards;
+}
+
+@keyframes expandName {
+    0%{
+        width: 50%;
+        text-align: center;
+
+    }
+    100%{
+        width: 95%;
+        text-align: center;
+        border-radius: 3vw 5vw 5vw 2vw;
+    }
+}
+
+.wrapper img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 65vh;
+    border-radius: 2vh;
+    box-shadow: rgb(128, 128, 128, 0.25) 0.5vw 0.5vw 0.5vw;
+}
+
+.wrapper .desc{
+    display: none;
+    margin: 10vh 0px;
+    text-align: center;
+    color: white;
+}
+
+.wrapper .shortdesc{
+    margin: 2vh;
+    text-align: center;
+    color: white;
+}
+
+.wrapper:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 4px 4px;
+}
+
+.shortdesc{
+    font-family: Montserrat;    
+}
+
+.wrapper:hover .shortdesc{
+    animation: hideDesc 0.5s forwards;
+}
+
+.desc{
+    font-family: MontserratIta;
+}
+
+.wrapper:hover .desc{
+    display: block;
+    animation: displayDesc 1.25s forwards;
+}
+
+.wrapper .btn{
+    background-color: rgb(245, 245, 245);
+    display: none;
+    font-family: Alkatra;
+}
+
+.wrapper:hover .btn{
+    animation: displayDesc 1s forwards;
+    display: block;
+    padding: 2vh 4vw;
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 5vw;
+    box-shadow: rgba(0, 0, 0, 0.5) 4px 4px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #383840;
+    cursor: pointer;
+}
+
+@keyframes displayDesc {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes hideDesc {
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        display: none;
+        opacity: 0;
+    }
+}
