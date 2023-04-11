@@ -8,7 +8,7 @@ function App() {
     <div className="App">
 
         <Routes>
-        <Route path="https://Vitoboos.github.io/portafolio/"
+        <Route path="/portafolio"
           element={<Navigate to="/en" />}
         />
           <Route path='/en' element={<HomeEN/>}> </Route>
