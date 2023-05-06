@@ -87,7 +87,7 @@ export default function Profile() {
 
                     <p className={styles.description}>
 
-                        Estoy bien versado en el desarrollo Front-End y he trabajado con framewroks como Reacy y Django, tengo experiencia lidiando con Python y
+                        Estoy bien versado en el desarrollo Front-End y he trabajado con framewroks como React y Django, tengo experiencia lidiando con Python y
                         construyendo aplicaciones de escritorio con Tkinter, Electron y .NET.
                         Soy un lider natural, mediador y trabajador apasionado que disfruta resolver problemas y aprender nuevas habilidades.
                         Mis hobbies incluyen leer historia y jugar videojuegos.
